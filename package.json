@@ -1,0 +1,28 @@
+{
+  "name": "snoochives",
+  "version": "0.0.1",
+  "description": "Simple archive ingest using snoosnort for reddit",
+  "main": "snoochives.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node snoochives.js"
+  },
+  "dependencies": {
+    "snoosnort": "git://github.com/go1dfish/snoosnort.git#master",
+    "lokijs": "1.1.14",
+    "rsvp": "3.0.16",
+    "snoocore": "^2.3.2",
+    "underscore": "^1.7.0"
+  },
+  "author": "go1dfish",
+  "licenses": [
+    {
+      "type": "WTFPL",
+      "url": "https://github.com/go1dfish/snoochives/blob/master/LICENSE"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/go1dfish/snoochives.git"
+  }
+}
